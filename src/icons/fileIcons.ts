@@ -48,6 +48,12 @@ export const fileIcons: FileIcons = {
     { name: 'proto', fileExtensions: ['proto'] },
     {
       name: 'playwright',
+      fileExtensions: [
+        'playwright.ts',
+        'playwright.tsx',
+        'playwright.js',
+        'playwright.jsx',
+      ],
       fileNames: [
         'playwright.config.js',
         'playwright.config.mjs',
